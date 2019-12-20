@@ -15,3 +15,10 @@ python my_fine_program.py input.txt wild_output.txt
 ### Example screen output and output file content: 
 31: 5 8 10 15 16 20 24 25 30<br/>
 26: 2 4 6 7 8 10 12 14 16 18 20 21 22 24
+
+
+# LibraryTask:
+It is a program for Library database management with java programming
+
+## Usage
+clone the git repository and Run with InteliJIDEA
