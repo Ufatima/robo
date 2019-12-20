@@ -11,6 +11,7 @@ import sys
 
 def main():
     file_name = sys.argv[1]
+    file_out = sys.argv[2]
     with open(file_name, "r") as ins:
         array = []
         for line in ins:
@@ -28,7 +29,7 @@ def main():
             # find  multiple of value1 or value2
             n = x[(x % int(value_1) == 0) | (x % int(value_2) == 0)]
 
-            with open("wild_output.txt", "a") as out:
+            with open(file_out, "a") as out:
                 n = str(n).strip('[').strip(']')
                 out.write('{}: {}\n'.format(value_of_range, n))
 
