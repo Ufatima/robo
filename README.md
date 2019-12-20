@@ -4,14 +4,14 @@ my_fine_program.py inside multiples folder is a python program that takes a file
 ## Usage
 
 ```python
-python my_fine_program.py input.txt wild_output.txt
+python my_fine_program.py input.txt wild_output.txt 
 ```
 
 ## Input and Output
 ### Example input file content: 
-2 7 26
+2 7 26<br/>
 5 8 31
 
 ### Example screen output and output file content: 
-31: 5 8 10 15 16 20 24 25 30
+31: 5 8 10 15 16 20 24 25 30<br/>
 26: 2 4 6 7 8 10 12 14 16 18 20 21 22 24
